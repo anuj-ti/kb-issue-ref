@@ -1,5 +1,18 @@
+### Davinci Output
 
 Document ID: 12J_waJEbC1EEBL3MVy_RqyOWfh6ZslV45b-csN4B7Bs_0
+
+Matching Entities:
+ID: howard abrams, Type: person, Desc: Author of technical teardown spec document
+ID: prod3, Type: , Desc: 
+ID: cnu:devflows, Type: , Desc: 
+ID: devflows vision, Type: , Desc: 
+ID: rahul subramaniam, Type: person, Desc: Person mentioned in a document
+ID: previous roadmap, Type: , Desc: 
+ID: devflows, Type: product, Desc: Technical teardown spec document
+
+Non-Matching Entities:
+ID: product vision spec, Type: document type, Desc: Type of technical teardown spec document
 
 Matching Edges:
 Source: devflows, Type: p2spec_teardown_author, Target: howard abrams
@@ -10,6 +23,24 @@ Source: prod3, Type: MENTIONS, Target: rahul subramaniam
 Source: prod3, Type: MENTIONS, Target: previous roadmap
 
 Document ID: 12J_waJEbC1EEBL3MVy_RqyOWfh6ZslV45b-csN4B7Bs_1
+
+Matching Entities:
+ID: aws, Type: organization, Desc: Cloud computing platform
+ID: s3, Type: technology, Desc: Name of a technology
+ID: it worker, Type: person, Desc: Person mentioned in a document
+ID: ifttt, Type: software, Desc: A web-based service
+ID: zapier, Type: software, Desc: An online automation tool
+ID: tray.io, Type: software, Desc: An integration platform
+ID: mulesoft, Type: software, Desc: An integration platform
+ID: dms, Type: software, Desc: 
+ID: lambda, Type: software, Desc: A serverless computing platform
+ID: firehose, Type: software, Desc: A real-time data streaming service
+ID: glue, Type: software, Desc: A cloud-based ETL service
+ID: comprehend, Type: software, Desc: A natural language processing service
+ID: athena, Type: software, Desc: An interactive query service
+ID: quicksight, Type: software, Desc: A business intelligence service
+
+Non-Matching Entities:
 
 Matching Edges:
 Source: it worker, Type: USE, Target: aws
@@ -28,6 +59,22 @@ Source: aws, Type: INCLUDE, Target: quicksight
 
 Document ID: 12J_waJEbC1EEBL3MVy_RqyOWfh6ZslV45b-csN4B7Bs_2
 
+Matching Entities:
+ID: aws, Type: organization, Desc: Cloud computing platform
+ID: amazon sqs, Type: software, Desc: A software for storing document indexing requests
+ID: devflows, Type: product, Desc: Technical teardown spec document
+ID: lambda, Type: software, Desc: A serverless computing platform
+ID: glue, Type: software, Desc: A cloud-based ETL service
+ID: comprehend, Type: software, Desc: A natural language processing service
+ID: trilogy, Type: organization, Desc: A software company
+ID: it workers, Type: group, Desc: A group of people who work in IT Departments
+ID: kinesis, Type: software, Desc: A real-time data streaming service
+ID: oracle, Type: software, Desc: A multi-model database management system
+ID: data lake, Type: software, Desc: A storage repository for large amounts of data
+
+Non-Matching Entities:
+ID: it departments, Type: group, Desc: A group of people who work in IT Departments
+
 Matching Edges:
 Source: devflows, Type: PROVIDES_PRIMITIVE, Target: amazon sqs
 Source: devflows, Type: PROVIDES_PRIMITIVE, Target: lambda
@@ -40,6 +87,23 @@ Source: devflows, Type: TRANSFORM_DATA_FROM, Target: oracle
 Source: devflows, Type: TRANSFORM_DATA_TO, Target: data lake
 
 Document ID: 12J_waJEbC1EEBL3MVy_RqyOWfh6ZslV45b-csN4B7Bs_3
+
+Matching Entities:
+ID: aws, Type: organization, Desc: Cloud computing platform
+ID: s3, Type: technology, Desc: Name of a technology
+ID: devflows, Type: product, Desc: Technical teardown spec document
+ID: firehose, Type: software, Desc: A real-time data streaming service
+ID: glue, Type: software, Desc: A cloud-based ETL service
+ID: comprehend, Type: software, Desc: A natural language processing service
+ID: it workers, Type: group, Desc: A group of people who work in IT Departments
+ID: kinesis, Type: software, Desc: A real-time data streaming service
+ID: oracle, Type: software, Desc: A multi-model database management system
+ID: redshift, Type: software, Desc: A data warehouse service
+ID: orc, Type: software, Desc: A columnar storage format
+ID: salesforce, Type: software, Desc: A cloud computing service
+ID: it developers, Type: person, Desc: Person mentioned in a document
+
+Non-Matching Entities:
 
 Matching Edges:
 Source: devflows, Type: USES, Target: aws
@@ -57,318 +121,24 @@ Source: devflows, Type: DEVELOPED_BY, Target: it developers
 
 Document ID: 12J_waJEbC1EEBL3MVy_RqyOWfh6ZslV45b-csN4B7Bs_4
 
-Matching Edges:
+Matching Entities:
 
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_0
-
-Matching Edges:
-Source: prod2 new spec, Type: MENTIONS, Target: cnu:devflows
-Source: cnu:devflows, Type: MENTIONS, Target: devflows adapter for quicksight spice
-Source: cenpro-26810, Type: MENTIONS, Target: svp name
-Source: cenpro-26810, Type: MENTIONS, Target: name
-Source: cenpro-26810, Type: MENTIONS, Target: cenpro-17611
-Source: cenpro-26810, Type: MENTIONS, Target: cenpro-16276
-Source: devflows adapter for quicksight spice, Type: technical_sme, Target: name <email.address>
-Source: devflows adapter for quicksight spice, Type: p2spec_teardown_author, Target: svp name <email.address>
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_1
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_10
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_11
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_12
-
-Matching Edges:
-Source: itd, Type: MENTIONS, Target: curious questions
-Source: itd, Type: MENTIONS, Target: the team
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_13
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_14
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_15
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_16
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_17
-
-Matching Edges:
-Source: playbook name, Type: HAS_VERSION, Target: named version
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_18
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_19
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_2
-
-Matching Edges:
-Source: central-product-group, Type: HAS_EMAIL, Target: central-product-group@devfactory.com
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_20
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_21
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_3
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_4
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_5
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_6
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_7
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_8
-
-Matching Edges:
-
-Document ID: 12uJPEL8GbZEFiQDlq0mZmMvuRTZNVrhVksKsDvPCa0k_9
-
-Matching Edges:
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_0
-
-Matching Edges:
-Source: cenpro-17645, Type: BUSINESS_SME, Target: rahul subramaniam
-Source: slack adapter, Type: DEVELOPED_BY, Target: devflows
-Source: prod2 new spec, Type: MENTIONS, Target: cnu:devfactory
-Source: prod2 new spec, Type: MENTIONS, Target: slack adapter
-Source: slack adapter, Type: p2spec_teardown_author, Target: david hessing
-Source: cenpro-17645, Type: AUTHORED_BY, Target: david hessing
-Source: slack adapter, Type: technical_sme, Target: arleif braganza
-Source: cenpro-17645, Type: TECHNICAL_SME, Target: arleif braganza
-Source: w14 2021, Type: APPROVED_IN, Target: cenpro-17645
-Source: cenpro-19915, Type: ITERATION_DUE_TO, Target: scr
-Source: cenpro-20119, Type: ITERATION_DUE_TO, Target: scr
-Source: slack adapter, Type: CHANGED_ITDS, Target: eventbridge
-Source: slack adapter, Type: SEND_MESSAGES_TO, Target: slack
-Source: slack adapter, Type: TRIGGERED_BY, Target: slack
-Source: slack adapter, Type: made_a_decision, Target: changed itds receive.3 and receive.4 to choose eventbridge rather than sns.
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_1
-
-Matching Edges:
-Source: devflows, Type: INTEGRATED_WITH, Target: slack
-Source: devflows, Type: USES, Target: oauth
-Source: devflows, Type: HAS, Target: input node
-Source: devflows, Type: HAS, Target: query nodes
-Source: devflows, Type: HAS, Target: action nodes
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_10
-
-Matching Edges:
-Source: input node, Type: ROUTED_TO, Target: devflows
-Source: aws, Type: CONFIRMED, Target: eventbridge
-Source: devflows, Type: USES, Target: eventbridge
-Source: devflows, Type: USES, Target: sns
-Source: sns, Type: PARTITIONING_ON, Target: slack
-Source: eventbridge, Type: PARTITIONING_ON, Target: slack
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_11
-
-Matching Edges:
-Source: slack events api, Type: USED_BY, Target: jive core
-Source: slack events api, Type: USED_BY, Target: jive core
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_12
-
-Matching Edges:
-Source: send to slack, Type: MENTIONS, Target: devflows
-Source: send to slack, Type: MENTIONS, Target: slack
-Source: querying slack, Type: MENTIONS, Target: slack
-Source: querying slack, Type: USES, Target: web api
-Source: send to slack, Type: USES, Target: web api
-Source: send to slack, Type: CONSIDERS, Target: incoming webhooks
-Source: querying slack, Type: MENTIONS, Target: conversations.list
-Source: querying slack, Type: MENTIONS, Target: users.list
-Source: querying slack, Type: MENTIONS, Target: users.info
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_13
-
-Matching Edges:
-Source: slack, Type: USES, Target: devflows action
-Source: devflows action, Type: IS_A, Target: invocable
-Source: invocable, Type: CONSISTS_OF, Target: input
-Source: invocable, Type: CONSISTS_OF, Target: query
-Source: invocable, Type: CONSISTS_OF, Target: action
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_14
-
-Matching Edges:
-Source: zapier, Type: ALTERNATIVE_TO, Target: devflows action
-Source: slack, Type: USED_BY, Target: devflows action
-Source: devflows action, Type: ALTERNATIVE_TO, Target: invocable
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_15
-
-Matching Edges:
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_16
-
-Matching Edges:
-Source: slack, Type: INTEGRATES_WITH, Target: eventbridge
-Source: slack, Type: USES, Target: oauth
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_17
-
-Matching Edges:
-Source: devflows, Type: USES, Target: eventbridge
-Source: devflows, Type: USES, Target: slack
-Source: devflows, Type: USES, Target: oauth
-Source: devflows, Type: USES, Target: hmac
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_19
-
-Matching Edges:
-Source: m3, Type: , Target: fr4
-Source: m4, Type: , Target: fr5
-Source: m5, Type: , Target: fr3
-Source: m5, Type: , Target: nfr3
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_2
-
-Matching Edges:
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_20
-
-Matching Edges:
-Source: m6, Type: INCLUDES, Target: devflows
-Source: m6, Type: MANAGES, Target: eventbridge
-Source: m6, Type: RECEIVES_EVENTS_FROM, Target: slack
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_21
-
-Matching Edges:
-Source: pr57, Type: IMPLEMENTS, Target: itds
-Source: pr9, Type: IMPLEMENTS, Target: itds
-Source: pr53, Type: IMPLEMENTS, Target: itds
-Source: pr58, Type: IMPLEMENTS, Target: itds
-Source: pr59, Type: IMPLEMENTS, Target: itds
-Source: pr62, Type: IMPLEMENTS, Target: itds
-Source: pr54, Type: IMPLEMENTS, Target: itds
-Source: pr61, Type: IMPLEMENTS, Target: itds
-Source: pr56, Type: IMPLEMENTS, Target: itds
-Source: additional document, Type: CONTAINS, Target: itds
-Source: pr55, Type: IMPLEMENTS, Target: itds
-Source: pr8, Type: IMPLEMENTS, Target: itds
-Source: pr63, Type: IMPLEMENTS, Target: itds
-Source: pr52, Type: IMPLEMENTS, Target: itds
-Source: milestone, Type: IMPLEMENTS, Target: frs
-Source: milestone, Type: IMPLEMENTS, Target: nfrs
-Source: milestone, Type: ALTERED_IMPLEMENTATION, Target: actions
-Source: milestone, Type: ALTERED_IMPLEMENTATION, Target: action configs
-Source: cr4, Type: IMPLEMENTED_BY, Target: prs
-Source: milestone, Type: CONTAINS, Target: prs
-Source: cr10, Type: IMPLEMENTED_BY, Target: prs
-Source: cr9.1, Type: IMPLEMENTED_BY, Target: prs
-Source: cr2, Type: IMPLEMENTED_BY, Target: prs
-Source: cr1, Type: IMPLEMENTED_BY, Target: prs
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_22
-
-Matching Edges:
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_23
-
-Matching Edges:
-Source: mdd questions, Type: MENTIONS, Target: eventbridge
-Source: mdd questions, Type: MENTIONS, Target: github
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_24
-
-Matching Edges:
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_25
-
-Matching Edges:
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_26
-
-Matching Edges:
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_3
-
-Matching Edges:
-Source: slack, Type: HAS, Target: conversation
-Source: slack, Type: HAS, Target: user
-Source: slack, Type: HAS, Target: channel
-Source: slack, Type: HAS, Target: group
-Source: slack, Type: HAS, Target: im
-Source: slack, Type: HAS, Target: mpim
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_4
-
-Matching Edges:
-Source: appflow slack source, Type: REPLACED_BY, Target: eventbridge
-Source: appflow slack source, Type: USES, Target: slack
-Source: jive core, Type: USES, Target: aws appflow
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_5
-
-Matching Edges:
-Source: appflow, Type: HAS_CONNECTOR_SDK, Target: slack
-Source: zendesk, Type: HAS_ADAPTER_SPEC, Target: appflow
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_6
-
-Matching Edges:
-Source: slack, Type: INTEGRATED_WITH, Target: devflows
-Source: microsoft teams, Type: INTEGRATED_WITH, Target: devflows
-Source: citizen integrator, Type: INSTALLS, Target: slack app
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_7
-
-Matching Edges:
-Source: slack, Type: USES, Target: slack
-Source: slack, Type: USES, Target: websockets
-Source: slack, Type: USES, Target: http
-Source: slack, Type: USES, Target: slash commands
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_8
-
-Matching Edges:
-Source: events api, Type: USES, Target: devflows
-Source: devflows, Type: REQUIRES, Target: slack app directory
-Source: slack app directory, Type: CONTAINS, Target: zapier slack app
-
-Document ID: 146flGQIpdCxILkyGYzmXAQzBnFxJzwrnuLPi2D-lfYk_9
+Non-Matching Entities:
 
 Matching Edges:
 
 Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_0
+
+Matching Entities:
+ID: alan carbery, Type: person, Desc: Author of technical teardown spec document
+ID: devflows, Type: product, Desc: Technical teardown spec document
+ID: gpt3, Type: software, Desc: A state of the art LLM
+ID: openai, Type: organization, Desc: A state of the art LLM
+
+Non-Matching Entities:
+ID: prod2 full clone spec, Type: document type, Desc: Type of technical teardown spec document
+ID: rahul subramaniam, Type: person, Desc: Person mentioned in a document
+ID: devfactory, Type: , Desc: 
 
 Matching Edges:
 Source: gpt3, Type: TECHNICAL_SME, Target: alan carbery
@@ -376,6 +146,44 @@ Source: devflows, Type: p2spec_teardown_author, Target: alan carbery
 Source: gpt3, Type: DEVELOPED_BY, Target: openai
 
 Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_1
+
+Matching Entities:
+ID: s3, Type: technology, Desc: Name of a technology
+ID: dynamodb, Type: software, Desc: A software for holding Tenant-specific data
+ID: evolution strategy, Type: , Desc: 
+ID: aws adapters, Type: , Desc: 
+ID: application integration, Type: technology, Desc: Name of a technology
+ID: amazon connect, Type: , Desc: 
+ID: analytics, Type: technology, Desc: Name of a technology
+ID: business applications, Type: technology, Desc: Name of a technology
+ID: database, Type: technology, Desc: Name of a technology
+ID: machine learning, Type: technology, Desc: Name of a technology
+ID: security, identity & compliance, Type: technology, Desc: Name of a technology
+ID: storage, Type: technology, Desc: Name of a technology
+ID: blockchain, Type: technology, Desc: Name of a technology
+ID: cloud financial management, Type: technology, Desc: Name of a technology
+ID: compute containers, Type: technology, Desc: Name of a technology
+ID: developer tools, Type: technology, Desc: Name of a technology
+ID: end user computing, Type: technology, Desc: Name of a technology
+ID: front end web & mobile, Type: technology, Desc: Name of a technology
+ID: game tech, Type: technology, Desc: Name of a technology
+ID: iot, Type: technology, Desc: Name of a technology
+ID: management & governance, Type: technology, Desc: Name of a technology
+ID: media services, Type: technology, Desc: Name of a technology
+ID: migration & transfer, Type: technology, Desc: Name of a technology
+ID: network and cdns, Type: technology, Desc: Name of a technology
+ID: quantum technologies, Type: technology, Desc: Name of a technology
+ID: robotics, Type: technology, Desc: Name of a technology
+ID: satellite, Type: technology, Desc: Name of a technology
+ID: serverless, Type: technology, Desc: Name of a technology
+ID: vr & ar, Type: technology, Desc: Name of a technology
+
+Non-Matching Entities:
+ID: theme 1 : analytics, Type: , Desc: 
+ID: we need to quickly increase the coverage of aws adapters., Type: decision, Desc: decision made in a document
+ID: we are focused on the following services: utility computing services, application integration services, enterprise products., Type: decision, Desc: decision made in a document
+ID: given this strategy will not prioritize for now the following categories: blockchain, cloud financial management, compute containers, developer tools, end user computing, front end web & mobile, game tech, iot, management & governance, media services, migration & transfer, network and cdns, quantum technologies, robotics, satellite, serverless, vr & ar., Type: decision, Desc: decision made in a document
+ID: an alternative approach would be to cover the full gamut of aws services., Type: decision, Desc: decision made in a document
 
 Matching Edges:
 Source: aws adapters, Type: , Target: s3
@@ -410,9 +218,31 @@ Source: aws adapters, Type: , Target: vr & ar
 
 Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_2
 
+Matching Entities:
+
+Non-Matching Entities:
+ID: elasticsearch, Type: software, Desc: Search engine
+ID: glue, Type: software, Desc: A cloud-based ETL service
+ID: kinesis, Type: software, Desc: A real-time data streaming service
+ID: application integration, Type: technology, Desc: Name of a technology
+ID: analytics, Type: technology, Desc: Name of a technology
+
 Matching Edges:
 
 Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_3
+
+Matching Entities:
+ID: amazon sqs, Type: software, Desc: A software for storing document indexing requests
+ID: devflows, Type: product, Desc: Technical teardown spec document
+ID: eventbridge, Type: software, Desc: 
+ID: sns, Type: software, Desc: 
+ID: business applications, Type: technology, Desc: Name of a technology
+ID: application integration services, Type: software, Desc: A state of the art LLM
+ID: rest api, Type: software, Desc: A software interface for communication
+ID: step functions, Type: software, Desc: A web service for building distributed applications
+
+Non-Matching Entities:
+ID: graphql, Type: software, Desc: A query language for APIs
 
 Matching Edges:
 Source: devflows, Type: SEND_MESSAGE_OUT, Target: amazon sqs
@@ -425,6 +255,29 @@ Source: devflows, Type: FITS_WELL_WITH, Target: application integration services
 Source: devflows, Type: CALL_OUT_TO, Target: rest api
 
 Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_4
+
+Matching Entities:
+ID: aws, Type: organization, Desc: Cloud computing platform
+ID: devflow, Type: software, Desc: Software for workflow processes
+ID: amazon connect, Type: , Desc: 
+ID: business applications, Type: technology, Desc: Name of a technology
+ID: database, Type: technology, Desc: Name of a technology
+ID: workdocs, Type: , Desc: 
+ID: pinpoint, Type: , Desc: 
+ID: honeycode, Type: , Desc: 
+ID: joe, Type: person, Desc: Person mentioned in a document
+
+Non-Matching Entities:
+ID: dynamodb, Type: software, Desc: A software for holding Tenant-specific data
+ID: athena, Type: software, Desc: An interactive query service
+ID: redshift, Type: software, Desc: A data warehouse service
+ID: simple email (ses), Type: , Desc: 
+ID: documentdb, Type: technology, Desc: Name of a technology
+ID: send an email to pinpoint., Type: decision, Desc: decision made in a document
+ID: send & receive emails simply., Type: decision, Desc: decision made in a document
+ID: allow an event in connect to trigger a flow., Type: decision, Desc: decision made in a document
+ID: input nodes for workdocs events, and actions in workdocs., Type: decision, Desc: decision made in a document
+ID: allow a simple ui in honeycode to trigger a flow (may require polling honeycode under the covers)., Type: decision, Desc: decision made in a document
 
 Matching Edges:
 Source: business applications, Type: SOLVES_PROBLEM, Target: devflow
@@ -440,6 +293,19 @@ Source: workdocs, Type: NOT_IN_2021_PER, Target: joe
 
 Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_5
 
+Matching Entities:
+ID: aws, Type: organization, Desc: Cloud computing platform
+ID: dynamodb, Type: software, Desc: A software for holding Tenant-specific data
+ID: joe, Type: person, Desc: Person mentioned in a document
+ID: neptune, Type: technology, Desc: Name of a technology
+ID: sagemaker, Type: technology, Desc: Name of a technology
+ID: forecast, Type: technology, Desc: Name of a technology
+ID: timestream, Type: technology, Desc: Name of a technology
+
+Non-Matching Entities:
+ID: support dynamodb not documentdb for now, Type: decision, Desc: decision made in a document
+ID: not in 2021, per joe, Type: decision, Desc: decision made in a document
+
 Matching Edges:
 Source: aws, Type: PROVIDES, Target: dynamodb
 Source: timestream, Type: REJECTED_BY, Target: joe
@@ -448,6 +314,30 @@ Source: aws, Type: PROVIDES, Target: sagemaker
 Source: aws, Type: PROVIDES, Target: forecast
 
 Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_6
+
+Matching Entities:
+ID: aws, Type: organization, Desc: Cloud computing platform
+ID: comprehend, Type: software, Desc: A natural language processing service
+ID: sagemaker, Type: technology, Desc: Name of a technology
+ID: forecast, Type: technology, Desc: Name of a technology
+ID: personalize, Type: technology, Desc: Name of a technology
+ID: rekognition, Type: technology, Desc: Name of a technology
+ID: translate, Type: technology, Desc: Name of a technology
+ID: lake formation, Type: technology, Desc: Name of a technology
+ID: guardduty, Type: technology, Desc: Name of a technology
+ID: macie, Type: technology, Desc: Name of a technology
+
+Non-Matching Entities:
+ID: joe, Type: person, Desc: Person mentioned in a document
+ID: adapter for aws personalize., Type: decision, Desc: decision made in a document
+ID: adapters for sagemaker - to use an existing trained model., Type: decision, Desc: decision made in a document
+ID: adapters to train a sagemaker model., Type: decision, Desc: decision made in a document
+ID: sentiment and topic analysis adapters., Type: decision, Desc: decision made in a document
+ID: adapters to use rekognition., Type: decision, Desc: decision made in a document
+ID: adapters to use aws translate., Type: decision, Desc: decision made in a document
+ID: adapters for aws forecast., Type: decision, Desc: decision made in a document
+ID: allow guardduty to trigger devflows., Type: decision, Desc: decision made in a document
+ID: allow macie to trigger devflows., Type: decision, Desc: decision made in a document
 
 Matching Edges:
 Source: aws, Type: HAS, Target: comprehend
@@ -462,302 +352,40 @@ Source: aws, Type: HAS, Target: macie
 
 Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_7
 
+Matching Entities:
+ID: joe, Type: person, Desc: Person mentioned in a document
+ID: guardduty, Type: technology, Desc: Name of a technology
+ID: macie, Type: technology, Desc: Name of a technology
+
+Non-Matching Entities:
+ID: dms, Type: software, Desc: 
+ID: kendra, Type: , Desc: 
+ID: allow guardduty to trigger devflows., Type: decision, Desc: decision made in a document
+ID: allow macie to trigger devflows., Type: decision, Desc: decision made in a document
+ID: efs, Type: software, Desc: 
+ID: aws transfer, Type: software, Desc: 
+ID: aws backup, Type: software, Desc: 
+ID: chime, Type: software, Desc: 
+ID: chime voice connector, Type: software, Desc: 
+ID: secrets manager, Type: software, Desc: 
+ID: elasticache, Type: software, Desc: 
+ID: location service, Type: software, Desc: 
+ID: lex, Type: software, Desc: 
+ID: polly, Type: software, Desc: 
+ID: textract, Type: software, Desc: 
+ID: transcribe, Type: software, Desc: 
+ID: elemental media, Type: software, Desc: 
+ID: application migration service, Type: software, Desc: 
+ID: application discovery service, Type: software, Desc: 
+ID: cognito, Type: software, Desc: 
+ID: aws glacier, Type: software, Desc: 
+ID: appsync, Type: software, Desc: 
+ID: codecommit, Type: software, Desc: 
+ID: codebuild, Type: software, Desc: 
+ID: codepipeline, Type: software, Desc: 
+ID: codedeploy, Type: software, Desc: 
+
 Matching Edges:
 Source: macie, Type: REJECTED_BY, Target: joe
 Source: guardduty, Type: REJECTED_BY, Target: joe
 
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_0
-
-Matching Edges:
-Source: prod2 technical teardown spec, Type: MENTIONS, Target: cnu:devflows
-Source: cenpro-27145, Type: MENTIONS, Target: name
-Source: cenpro-27145, Type: MENTIONS, Target: name
-Source: cenpro-27145, Type: MENTIONS, Target: joe
-Source: cenpro-27145, Type: MENTIONS, Target: link(s)
-Source: prod2 technical teardown spec, Type: MENTIONS, Target: data transformation
-Source: cenpro-27145, Type: MENTIONS, Target: email.address
-Source: cenpro-27145, Type: MENTIONS, Target: email.address
-Source: cenpro-27145, Type: MENTIONS, Target: links with a brief name - e.g. company technical teardown, roadmap, etc.
-Source: cenpro-27145, Type: MENTIONS, Target: evp
-Source: cenpro-27145, Type: MENTIONS, Target: scope section
-Source: cenpro-27145, Type: MENTIONS, Target: final assembly work unit
-Source: cenpro-27145, Type: MENTIONS, Target: exec
-Source: cenpro-27145, Type: MENTIONS, Target: w10
-Source: cenpro-27145, Type: MENTIONS, Target: snapshot
-Source: cenpro-27145, Type: MENTIONS, Target: itd 1
-Source: cenpro-27145, Type: MENTIONS, Target: friday spec list
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_1
-
-Matching Edges:
-Source: teardown of our tech teardown process, Type: MENTIONS, Target: rebuild spec for the tech teardown
-Source: rebuild spec for the tech teardown, Type: MENTIONS, Target: teardown summary
-Source: a tool that can visualise all the wus, Type: MENTIONS, Target: follow up recommendations
-Source: rebuild spec for the tech teardown, Type: MENTIONS, Target: follow up recommendations
-Source: rebuild spec for the tech teardown, Type: MENTIONS, Target: work unit tasks
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_10
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_11
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_12
-
-Matching Edges:
-Source: product-focused civ problems, Type: , Target: challenging problems
-Source: product-focused civ problems, Type: , Target: important problems
-Source: product inputs, Type: , Target: outputs
-Source: product inputs, Type: , Target: controls
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_13
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_14
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_15
-
-Matching Edges:
-Source: whiteboard diagram, Type: MENTIONS, Target: lucidchart
-Source: implementation overview, Type: MENTIONS, Target: edge work unit
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_17
-
-Matching Edges:
-Source: data structures summary, Type: , Target: overview
-Source: overview, Type: , Target: core entities
-Source: core entities, Type: , Target: cud operations
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_18
-
-Matching Edges:
-Source: archive job, Type: DELETES, Target: callrecord
-Source: insight jobs, Type: AGGREGATE, Target: documentaccess
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_19
-
-Matching Edges:
-Source: software seams, Type: , Target: architecture overview
-Source: software seams, Type: , Target: internal interface pattern(s)
-Source: software seams, Type: , Target: features
-Source: software seams, Type: , Target: important seams
-Source: software seams, Type: , Target: retention & replacement opportunities
-Source: software seams, Type: , Target: facts & metrics
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_2
-
-Matching Edges:
-Source: work unit tasks, Type: MENTIONED_IN, Target: qc
-Source: itds, Type: COMES_FROM, Target: software seams
-Source: itds, Type: COMES_FROM, Target: technical architecture
-Source: alp 1.0, Type: MENTIONED_IN, Target: alp tpm gchat
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_20
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_21
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_22
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_23
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_24
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_25
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_26
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_27
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_28
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_29
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_3
-
-Matching Edges:
-Source: software seams, Type: INCLUDES, Target: qc
-Source: software seams, Type: INCLUDES, Target: itds
-Source: software seams, Type: INCLUDES, Target: loc counts
-Source: software seams, Type: INCLUDES, Target: deployment stack report
-Source: software seams, Type: INCLUDES, Target: edge api
-Source: software seams, Type: INCLUDES, Target: telephony
-Source: telephony, Type: TRANSITION_TO, Target: twilio
-Source: final assembly, Type: INCLUDES, Target: p2 author
-Source: final assembly, Type: INCLUDES, Target: internal review
-Source: final assembly, Type: INCLUDES, Target: exec review
-Source: final assembly, Type: INCLUDES, Target: p2 insights
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_30
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_31
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_32
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_33
-
-Matching Edges:
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_4
-
-Matching Edges:
-Source: qc, Type: MENTIONS, Target: oracle
-Source: work unit tasks required, Type: MENTIONS, Target: qc
-Source: qc, Type: MENTIONS, Target: general qc rules
-Source: qc, Type: MENTIONS, Target: lucidchart
-Source: qc, Type: MENTIONS, Target: google docs
-Source: qc, Type: MENTIONS, Target: amazon redshift
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_5
-
-Matching Edges:
-Source: amazon redshift, Type: USES_AS_UNDERLYING_ENGINE, Target: oracle
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_8
-
-Matching Edges:
-Source: work unit tasks required, Type: INCLUDES, Target: edge
-Source: work unit tasks required, Type: INCLUDES, Target: technical architecture
-Source: work unit tasks required, Type: INCLUDES, Target: exec review
-Source: work unit tasks required, Type: INCLUDES, Target: internal qc
-Source: work unit tasks required, Type: INCLUDES, Target: exec reject at review
-Source: work unit tasks required, Type: INCLUDES, Target: xyz subsystem
-Source: work unit tasks required, Type: INCLUDES, Target: itds xyz.1, xyz.2 and xyz.3
-Source: work unit tasks required, Type: INCLUDES, Target: pqr
-Source: work unit tasks required, Type: INCLUDES, Target: abc
-Source: work unit tasks required, Type: INCLUDES, Target: final assembly wu
-Source: work unit tasks required, Type: INCLUDES, Target: background wu
-Source: work unit tasks required, Type: INCLUDES, Target: business sme
-Source: work unit tasks required, Type: INCLUDES, Target: data structures
-
-Document ID: 19ODQOv5seK4n4xOONHpdAsz7dPbSIQFSuoRJ-nOCiAM_9
-
-Matching Edges:
-
-Document ID: 1_JLT20owKnmTiZHjXJXBYlBFgEy5ko59GnYu4nuaXyU_0
-
-Matching Edges:
-Source: prod2 rebuild spec, Type: TPM, Target: devfactory
-Source: prod2 rebuild spec, Type: BQPM, Target: bqpm 5k using devflows
-Source: prod2 rebuild spec, Type: p2spec_teardown_author, Target: noumaan shah
-Source: prod2 rebuild spec, Type: AUTHOR, Target: noumaan shah
-Source: prod2 rebuild spec, Type: BUSINESS_SME, Target: brian kilinc
-Source: prod2 rebuild spec, Type: TECHNICAL_SME, Target: vishwambhar patil
-Source: prod2 rebuild spec, Type: technical_sme, Target: vishwambhar patil
-Source: prod2 rebuild spec, Type: INPUT_DATA, Target: arch doc
-Source: prod2 rebuild spec, Type: INTERVIEW_RECORDING, Target: discussion with vish
-Source: prod2 rebuild spec, Type: REBUILD_TYPE, Target: 5k rewrite
-Source: prod2 rebuild spec, Type: RELATED_SPECS, Target: technical teardown
-Source: prod2 rebuild spec, Type: PREVIOUS_PUBLISHED_VERSION, Target: w2 - approved
-Source: prod2 rebuild spec, Type: PREVIOUS_PUBLISHED_VERSION, Target: snapshot doc
-Source: prod2 rebuild spec, Type: CHANGES_SINCE_PREVIOUS_VERSION, Target: itd cfg.2
-Source: prod2 rebuild spec, Type: CHANGES_SINCE_PREVIOUS_VERSION, Target: itd cfg.1
-Source: prod2 rebuild spec, Type: CHANGES_SINCE_PREVIOUS_VERSION, Target: replaced
-Source: prod2 rebuild spec, Type: made_a_decision, Target: if 1 elevated to itd cfg.2 to use assumerole instead of aws secrets manager
-Source: prod2 rebuild spec, Type: made_a_decision, Target: get-secret-value invocable replaced with the sts-assume-role invocable
-
-Document ID: 1_JLT20owKnmTiZHjXJXBYlBFgEy5ko59GnYu4nuaXyU_1
-
-Matching Edges:
-Source: bqpm, Type: REBUILT_USING, Target: s3
-Source: bqpm, Type: REBUILT_USING, Target: devflows
-Source: bqpm, Type: REBUILT_USING, Target: amazon rds performance insights
-Source: bqpm, Type: USES, Target: solarwinds
-Source: bqpm, Type: USES, Target: aurea proactive monitoring
-Source: bqpm, Type: REBUILT_USING, Target: google sheet
-Source: bqpm, Type: REBUILT_USING, Target: bitnami sealed secrets
-
-Document ID: 1_JLT20owKnmTiZHjXJXBYlBFgEy5ko59GnYu4nuaXyU_10
-
-Matching Edges:
-
-Document ID: 1_JLT20owKnmTiZHjXJXBYlBFgEy5ko59GnYu4nuaXyU_11
-
-Matching Edges:
-Source: m1 - bqpm, Type: , Target: solarwinds
-Source: milestones, Type: , Target: m1 - bqpm
-Source: follow-up recommendations, Type: , Target: follow-up summary
-
-Document ID: 1_JLT20owKnmTiZHjXJXBYlBFgEy5ko59GnYu4nuaXyU_2
-
-Matching Edges:
-Source: postgresql, Type: USES, Target: solarwinds
-Source: bqpm, Type: USES_DATA_FROM, Target: solarwinds
-Source: bqpm, Type: USES_DATA_FROM, Target: apm
-
-Document ID: 1_JLT20owKnmTiZHjXJXBYlBFgEy5ko59GnYu4nuaXyU_3
-
-Matching Edges:
-
-Document ID: 1_JLT20owKnmTiZHjXJXBYlBFgEy5ko59GnYu4nuaXyU_4
-
-Matching Edges:
-Source: apm, Type: NOT_MONITORS, Target: dynamodb
-Source: apm, Type: NOT_MONITORS, Target: oracle
-Source: apm, Type: MONITORS, Target: postgresql
-Source: apm, Type: MONITORS, Target: mysql
-Source: apm, Type: MONITORS, Target: mssql
-
-Document ID: 1_JLT20owKnmTiZHjXJXBYlBFgEy5ko59GnYu4nuaXyU_5
-
-Matching Edges:
-
-Document ID: 1_JLT20owKnmTiZHjXJXBYlBFgEy5ko59GnYu4nuaXyU_6
-
-Matching Edges:
-Source: amazon rds performance insights, Type: GENERATES_METRICS_FOR, Target: aws rds performance insights
-Source: aurora, Type: GENERATES_METRICS_FOR, Target: aws rds performance insights
-
-Document ID: 1_JLT20owKnmTiZHjXJXBYlBFgEy5ko59GnYu4nuaXyU_7
-
-Matching Edges:
-Source: aws rds performance insights, Type: HAS_METRIC, Target: db.load.avg
-Source: aws rds performance insights, Type: HAS_METRIC, Target: db.sampledload.avg
-Source: aws rds performance insights, Type: HAS_METRIC_db.sql, Target: db.sql_tokenized
-Source: aws rds performance insights, Type: HAS_METRIC, Target: db.sql
-
-Document ID: 1_JLT20owKnmTiZHjXJXBYlBFgEy5ko59GnYu4nuaXyU_8
-
-Matching Edges:
-Source: aws secrets manager, Type: ALTERNATIVE_TO, Target: dynamodb
-Source: s3, Type: ALTERNATIVE_TO, Target: dynamodb
-Source: aws sts, Type: ALTERNATIVE_TO, Target: aws secrets manager
-
-Document ID: 1_JLT20owKnmTiZHjXJXBYlBFgEy5ko59GnYu4nuaXyU_9
-
-Matching Edges:
-Source: devflow, Type: INCLUDES, Target: s3
-Source: devflow, Type: INCLUDES, Target: sts
-Source: devflow, Type: INCLUDES, Target: splitter
-Source: devflow, Type: INCLUDES, Target: join-get-all
-Source: devflow, Type: INCLUDES, Target: score
