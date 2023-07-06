@@ -1,0 +1,389 @@
+Document ID: 12J_waJEbC1EEBL3MVy_RqyOWfh6ZslV45b-csN4B7Bs_0
+
+Matching Entities:
+ID: howard abrams, Type: person, Desc: Author of technical teardown spec document
+ID: prod3, Type: , Desc: 
+ID: cnu:devflows, Type: , Desc: 
+ID: devflows vision, Type: , Desc: 
+ID: rahul subramaniam, Type: person, Desc: Person mentioned in a document
+ID: previous roadmap, Type: , Desc: 
+ID: devflows, Type: product, Desc: Technical teardown spec document
+
+Non-Matching Entities:
+ID: product vision spec, Type: document type, Desc: Type of technical teardown spec document
+
+Matching Edges:
+Source: devflows, Type: p2spec_teardown_author, Target: howard abrams
+Source: prod3, Type: MENTIONS, Target: howard abrams
+Source: prod3, Type: MENTIONS, Target: cnu:devflows
+Source: prod3, Type: MENTIONS, Target: devflows vision
+Source: prod3, Type: MENTIONS, Target: rahul subramaniam
+Source: prod3, Type: MENTIONS, Target: previous roadmap
+
+Document ID: 12J_waJEbC1EEBL3MVy_RqyOWfh6ZslV45b-csN4B7Bs_1
+
+Matching Entities:
+ID: aws, Type: organization, Desc: Cloud computing platform
+ID: s3, Type: technology, Desc: Name of a technology
+ID: it worker, Type: person, Desc: Person mentioned in a document
+ID: ifttt, Type: software, Desc: A web-based service
+ID: zapier, Type: software, Desc: An online automation tool
+ID: tray.io, Type: software, Desc: An integration platform
+ID: mulesoft, Type: software, Desc: An integration platform
+ID: dms, Type: software, Desc: 
+ID: lambda, Type: software, Desc: A serverless computing platform
+ID: firehose, Type: software, Desc: A real-time data streaming service
+ID: glue, Type: software, Desc: A cloud-based ETL service
+ID: comprehend, Type: software, Desc: A natural language processing service
+ID: athena, Type: software, Desc: An interactive query service
+ID: quicksight, Type: software, Desc: A business intelligence service
+
+Non-Matching Entities:
+
+Matching Edges:
+Source: it worker, Type: USE, Target: aws
+Source: aws, Type: INCLUDE, Target: s3
+Source: aws, Type: COMPETE_WITH, Target: ifttt
+Source: aws, Type: COMPETE_WITH, Target: zapier
+Source: aws, Type: COMPETE_WITH, Target: tray.io
+Source: aws, Type: COMPETE_WITH, Target: mulesoft
+Source: aws, Type: INCLUDE, Target: dms
+Source: aws, Type: INCLUDE, Target: lambda
+Source: aws, Type: INCLUDE, Target: firehose
+Source: aws, Type: INCLUDE, Target: glue
+Source: aws, Type: INCLUDE, Target: comprehend
+Source: aws, Type: INCLUDE, Target: athena
+Source: aws, Type: INCLUDE, Target: quicksight
+
+Document ID: 12J_waJEbC1EEBL3MVy_RqyOWfh6ZslV45b-csN4B7Bs_2
+
+Matching Entities:
+ID: aws, Type: organization, Desc: Cloud computing platform
+ID: amazon sqs, Type: software, Desc: A software for storing document indexing requests
+ID: devflows, Type: product, Desc: Technical teardown spec document
+ID: lambda, Type: software, Desc: A serverless computing platform
+ID: glue, Type: software, Desc: A cloud-based ETL service
+ID: comprehend, Type: software, Desc: A natural language processing service
+ID: trilogy, Type: organization, Desc: A software company
+ID: it workers, Type: group, Desc: A group of people who work in IT Departments
+ID: kinesis, Type: software, Desc: A real-time data streaming service
+ID: oracle, Type: software, Desc: A multi-model database management system
+ID: data lake, Type: software, Desc: A storage repository for large amounts of data
+
+Non-Matching Entities:
+ID: it departments, Type: group, Desc: A group of people who work in IT Departments
+
+Matching Edges:
+Source: devflows, Type: PROVIDES_PRIMITIVE, Target: amazon sqs
+Source: devflows, Type: PROVIDES_PRIMITIVE, Target: lambda
+Source: devflows, Type: PROVIDES_PRIMITIVE, Target: glue
+Source: devflows, Type: TRANSFORM_DATA_THROUGH, Target: comprehend
+Source: devflows, Type: DEVELOPED_BY, Target: trilogy
+Source: aws, Type: PLATFORM_FOR, Target: it workers
+Source: devflows, Type: PROVIDES_PRIMITIVE, Target: kinesis
+Source: devflows, Type: TRANSFORM_DATA_FROM, Target: oracle
+Source: devflows, Type: TRANSFORM_DATA_TO, Target: data lake
+
+Document ID: 12J_waJEbC1EEBL3MVy_RqyOWfh6ZslV45b-csN4B7Bs_3
+
+Matching Entities:
+ID: aws, Type: organization, Desc: Cloud computing platform
+ID: s3, Type: technology, Desc: Name of a technology
+ID: devflows, Type: product, Desc: Technical teardown spec document
+ID: firehose, Type: software, Desc: A real-time data streaming service
+ID: glue, Type: software, Desc: A cloud-based ETL service
+ID: comprehend, Type: software, Desc: A natural language processing service
+ID: it workers, Type: group, Desc: A group of people who work in IT Departments
+ID: kinesis, Type: software, Desc: A real-time data streaming service
+ID: oracle, Type: software, Desc: A multi-model database management system
+ID: redshift, Type: software, Desc: A data warehouse service
+ID: orc, Type: software, Desc: A columnar storage format
+ID: salesforce, Type: software, Desc: A cloud computing service
+ID: it developers, Type: person, Desc: Person mentioned in a document
+
+Non-Matching Entities:
+
+Matching Edges:
+Source: devflows, Type: USES, Target: aws
+Source: devflows, Type: MOVES_DATA_TO, Target: s3
+Source: devflows, Type: STREAMS_DATA_USING, Target: firehose
+Source: devflows, Type: TRANSFORMS_DATA_USING, Target: glue
+Source: devflows, Type: TRANSFORMS_DATA_USING, Target: comprehend
+Source: devflows, Type: USED_BY, Target: it workers
+Source: devflows, Type: STREAMS_DATA_USING, Target: kinesis
+Source: devflows, Type: MOVES_DATA_FROM, Target: oracle
+Source: devflows, Type: MOVES_DATA_TO, Target: redshift
+Source: devflows, Type: STORES_DATA_USING, Target: orc
+Source: devflows, Type: SYNCS_DATA_WITH, Target: salesforce
+Source: devflows, Type: DEVELOPED_BY, Target: it developers
+
+Document ID: 12J_waJEbC1EEBL3MVy_RqyOWfh6ZslV45b-csN4B7Bs_4
+
+Matching Entities:
+
+Non-Matching Entities:
+
+Matching Edges:
+
+Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_0
+
+Matching Entities:
+ID: alan carbery, Type: person, Desc: Author of technical teardown spec document
+ID: devflows, Type: product, Desc: Technical teardown spec document
+ID: gpt3, Type: software, Desc: A state of the art LLM
+ID: openai, Type: organization, Desc: A state of the art LLM
+
+Non-Matching Entities:
+ID: prod2 full clone spec, Type: document type, Desc: Type of technical teardown spec document
+ID: rahul subramaniam, Type: person, Desc: Person mentioned in a document
+ID: devfactory, Type: , Desc: 
+
+Matching Edges:
+Source: gpt3, Type: TECHNICAL_SME, Target: alan carbery
+Source: devflows, Type: p2spec_teardown_author, Target: alan carbery
+Source: gpt3, Type: DEVELOPED_BY, Target: openai
+
+Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_1
+
+Matching Entities:
+ID: s3, Type: technology, Desc: Name of a technology
+ID: dynamodb, Type: software, Desc: A software for holding Tenant-specific data
+ID: evolution strategy, Type: , Desc: 
+ID: aws adapters, Type: , Desc: 
+ID: application integration, Type: technology, Desc: Name of a technology
+ID: amazon connect, Type: , Desc: 
+ID: analytics, Type: technology, Desc: Name of a technology
+ID: business applications, Type: technology, Desc: Name of a technology
+ID: database, Type: technology, Desc: Name of a technology
+ID: machine learning, Type: technology, Desc: Name of a technology
+ID: security, identity & compliance, Type: technology, Desc: Name of a technology
+ID: storage, Type: technology, Desc: Name of a technology
+ID: blockchain, Type: technology, Desc: Name of a technology
+ID: cloud financial management, Type: technology, Desc: Name of a technology
+ID: compute containers, Type: technology, Desc: Name of a technology
+ID: developer tools, Type: technology, Desc: Name of a technology
+ID: end user computing, Type: technology, Desc: Name of a technology
+ID: front end web & mobile, Type: technology, Desc: Name of a technology
+ID: game tech, Type: technology, Desc: Name of a technology
+ID: iot, Type: technology, Desc: Name of a technology
+ID: management & governance, Type: technology, Desc: Name of a technology
+ID: media services, Type: technology, Desc: Name of a technology
+ID: migration & transfer, Type: technology, Desc: Name of a technology
+ID: network and cdns, Type: technology, Desc: Name of a technology
+ID: quantum technologies, Type: technology, Desc: Name of a technology
+ID: robotics, Type: technology, Desc: Name of a technology
+ID: satellite, Type: technology, Desc: Name of a technology
+ID: serverless, Type: technology, Desc: Name of a technology
+ID: vr & ar, Type: technology, Desc: Name of a technology
+
+Non-Matching Entities:
+ID: theme 1 : analytics, Type: , Desc: 
+ID: we need to quickly increase the coverage of aws adapters., Type: decision, Desc: decision made in a document
+ID: we are focused on the following services: utility computing services, application integration services, enterprise products., Type: decision, Desc: decision made in a document
+ID: given this strategy will not prioritize for now the following categories: blockchain, cloud financial management, compute containers, developer tools, end user computing, front end web & mobile, game tech, iot, management & governance, media services, migration & transfer, network and cdns, quantum technologies, robotics, satellite, serverless, vr & ar., Type: decision, Desc: decision made in a document
+ID: an alternative approach would be to cover the full gamut of aws services., Type: decision, Desc: decision made in a document
+
+Matching Edges:
+Source: aws adapters, Type: , Target: s3
+Source: aws adapters, Type: , Target: dynamodb
+Source: evolution strategy, Type: , Target: aws adapters
+Source: aws adapters, Type: , Target: application integration
+Source: aws adapters, Type: , Target: application integration
+Source: aws adapters, Type: , Target: amazon connect
+Source: aws adapters, Type: , Target: analytics
+Source: aws adapters, Type: , Target: business applications
+Source: aws adapters, Type: , Target: database
+Source: aws adapters, Type: , Target: machine learning
+Source: aws adapters, Type: , Target: security, identity & compliance
+Source: aws adapters, Type: , Target: storage
+Source: aws adapters, Type: , Target: blockchain
+Source: aws adapters, Type: , Target: cloud financial management
+Source: aws adapters, Type: , Target: compute containers
+Source: aws adapters, Type: , Target: developer tools
+Source: aws adapters, Type: , Target: end user computing
+Source: aws adapters, Type: , Target: front end web & mobile
+Source: aws adapters, Type: , Target: game tech
+Source: aws adapters, Type: , Target: iot
+Source: aws adapters, Type: , Target: management & governance
+Source: aws adapters, Type: , Target: media services
+Source: aws adapters, Type: , Target: migration & transfer
+Source: aws adapters, Type: , Target: network and cdns
+Source: aws adapters, Type: , Target: quantum technologies
+Source: aws adapters, Type: , Target: robotics
+Source: aws adapters, Type: , Target: satellite
+Source: aws adapters, Type: , Target: serverless
+Source: aws adapters, Type: , Target: vr & ar
+
+Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_2
+
+Matching Entities:
+
+Non-Matching Entities:
+ID: elasticsearch, Type: software, Desc: Search engine
+ID: glue, Type: software, Desc: A cloud-based ETL service
+ID: kinesis, Type: software, Desc: A real-time data streaming service
+ID: application integration, Type: technology, Desc: Name of a technology
+ID: analytics, Type: technology, Desc: Name of a technology
+
+Matching Edges:
+
+Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_3
+
+Matching Entities:
+ID: amazon sqs, Type: software, Desc: A software for storing document indexing requests
+ID: devflows, Type: product, Desc: Technical teardown spec document
+ID: eventbridge, Type: software, Desc: 
+ID: sns, Type: software, Desc: 
+ID: business applications, Type: technology, Desc: Name of a technology
+ID: application integration services, Type: software, Desc: A state of the art LLM
+ID: rest api, Type: software, Desc: A software interface for communication
+ID: step functions, Type: software, Desc: A web service for building distributed applications
+
+Non-Matching Entities:
+ID: graphql, Type: software, Desc: A query language for APIs
+
+Matching Edges:
+Source: devflows, Type: SEND_MESSAGE_OUT, Target: amazon sqs
+Source: business applications, Type: SOLVE_PROBLEMS, Target: devflows
+Source: step functions, Type: CALL_FLOW_DIRECTLY, Target: devflows
+Source: devflows, Type: SEND_MESSAGE_OUT, Target: eventbridge
+Source: devflows, Type: RECEIVE_EVENT_FROM, Target: eventbridge
+Source: devflows, Type: SEND_MESSAGE_OUT, Target: sns
+Source: devflows, Type: FITS_WELL_WITH, Target: application integration services
+Source: devflows, Type: CALL_OUT_TO, Target: rest api
+
+Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_4
+
+Matching Entities:
+ID: aws, Type: organization, Desc: Cloud computing platform
+ID: devflow, Type: software, Desc: Software for workflow processes
+ID: amazon connect, Type: , Desc: 
+ID: business applications, Type: technology, Desc: Name of a technology
+ID: database, Type: technology, Desc: Name of a technology
+ID: workdocs, Type: , Desc: 
+ID: pinpoint, Type: , Desc: 
+ID: honeycode, Type: , Desc: 
+ID: joe, Type: person, Desc: Person mentioned in a document
+
+Non-Matching Entities:
+ID: dynamodb, Type: software, Desc: A software for holding Tenant-specific data
+ID: athena, Type: software, Desc: An interactive query service
+ID: redshift, Type: software, Desc: A data warehouse service
+ID: simple email (ses), Type: , Desc: 
+ID: documentdb, Type: technology, Desc: Name of a technology
+ID: send an email to pinpoint., Type: decision, Desc: decision made in a document
+ID: send & receive emails simply., Type: decision, Desc: decision made in a document
+ID: allow an event in connect to trigger a flow., Type: decision, Desc: decision made in a document
+ID: input nodes for workdocs events, and actions in workdocs., Type: decision, Desc: decision made in a document
+ID: allow a simple ui in honeycode to trigger a flow (may require polling honeycode under the covers)., Type: decision, Desc: decision made in a document
+
+Matching Edges:
+Source: business applications, Type: SOLVES_PROBLEM, Target: devflow
+Source: honeycode, Type: TRIGGERS_FLOW, Target: devflow
+Source: amazon connect, Type: TRIGGERS_FLOW, Target: devflow
+Source: workdocs, Type: INPUT_NODES_FOR_EVENTS_AND_ACTIONS, Target: devflow
+Source: devflow, Type: TAKES_ACTION_ON, Target: business applications
+Source: aws, Type: PROVIDES_PORTFOLIO_OF, Target: database
+Source: devflow, Type: MOVES_FILE_FROM_FOLDER_TO_FOLDER_IN, Target: workdocs
+Source: devflow, Type: SENDS_EMAIL_USING, Target: pinpoint
+Source: honeycode, Type: NOT_IN_2021_PER, Target: joe
+Source: workdocs, Type: NOT_IN_2021_PER, Target: joe
+
+Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_5
+
+Matching Entities:
+ID: aws, Type: organization, Desc: Cloud computing platform
+ID: dynamodb, Type: software, Desc: A software for holding Tenant-specific data
+ID: joe, Type: person, Desc: Person mentioned in a document
+ID: neptune, Type: technology, Desc: Name of a technology
+ID: sagemaker, Type: technology, Desc: Name of a technology
+ID: forecast, Type: technology, Desc: Name of a technology
+ID: timestream, Type: technology, Desc: Name of a technology
+
+Non-Matching Entities:
+ID: support dynamodb not documentdb for now, Type: decision, Desc: decision made in a document
+ID: not in 2021, per joe, Type: decision, Desc: decision made in a document
+
+Matching Edges:
+Source: aws, Type: PROVIDES, Target: dynamodb
+Source: timestream, Type: REJECTED_BY, Target: joe
+Source: aws, Type: PROVIDES, Target: neptune
+Source: aws, Type: PROVIDES, Target: sagemaker
+Source: aws, Type: PROVIDES, Target: forecast
+
+Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_6
+
+Matching Entities:
+ID: aws, Type: organization, Desc: Cloud computing platform
+ID: comprehend, Type: software, Desc: A natural language processing service
+ID: sagemaker, Type: technology, Desc: Name of a technology
+ID: forecast, Type: technology, Desc: Name of a technology
+ID: personalize, Type: technology, Desc: Name of a technology
+ID: rekognition, Type: technology, Desc: Name of a technology
+ID: translate, Type: technology, Desc: Name of a technology
+ID: lake formation, Type: technology, Desc: Name of a technology
+ID: guardduty, Type: technology, Desc: Name of a technology
+ID: macie, Type: technology, Desc: Name of a technology
+
+Non-Matching Entities:
+ID: joe, Type: person, Desc: Person mentioned in a document
+ID: adapter for aws personalize., Type: decision, Desc: decision made in a document
+ID: adapters for sagemaker - to use an existing trained model., Type: decision, Desc: decision made in a document
+ID: adapters to train a sagemaker model., Type: decision, Desc: decision made in a document
+ID: sentiment and topic analysis adapters., Type: decision, Desc: decision made in a document
+ID: adapters to use rekognition., Type: decision, Desc: decision made in a document
+ID: adapters to use aws translate., Type: decision, Desc: decision made in a document
+ID: adapters for aws forecast., Type: decision, Desc: decision made in a document
+ID: allow guardduty to trigger devflows., Type: decision, Desc: decision made in a document
+ID: allow macie to trigger devflows., Type: decision, Desc: decision made in a document
+
+Matching Edges:
+Source: aws, Type: HAS, Target: comprehend
+Source: aws, Type: HAS, Target: sagemaker
+Source: aws, Type: HAS, Target: forecast
+Source: aws, Type: HAS, Target: personalize
+Source: aws, Type: HAS, Target: rekognition
+Source: aws, Type: HAS, Target: translate
+Source: aws, Type: HAS, Target: lake formation
+Source: aws, Type: HAS, Target: guardduty
+Source: aws, Type: HAS, Target: macie
+
+Document ID: 14CKAlP03u4wRyhbsSrPwEQzLxqljH57LU7gJLPCZeD8_7
+
+Matching Entities:
+ID: joe, Type: person, Desc: Person mentioned in a document
+ID: guardduty, Type: technology, Desc: Name of a technology
+ID: macie, Type: technology, Desc: Name of a technology
+
+Non-Matching Entities:
+ID: dms, Type: software, Desc: 
+ID: kendra, Type: , Desc: 
+ID: allow guardduty to trigger devflows., Type: decision, Desc: decision made in a document
+ID: allow macie to trigger devflows., Type: decision, Desc: decision made in a document
+ID: efs, Type: software, Desc: 
+ID: aws transfer, Type: software, Desc: 
+ID: aws backup, Type: software, Desc: 
+ID: chime, Type: software, Desc: 
+ID: chime voice connector, Type: software, Desc: 
+ID: secrets manager, Type: software, Desc: 
+ID: elasticache, Type: software, Desc: 
+ID: location service, Type: software, Desc: 
+ID: lex, Type: software, Desc: 
+ID: polly, Type: software, Desc: 
+ID: textract, Type: software, Desc: 
+ID: transcribe, Type: software, Desc: 
+ID: elemental media, Type: software, Desc: 
+ID: application migration service, Type: software, Desc: 
+ID: application discovery service, Type: software, Desc: 
+ID: cognito, Type: software, Desc: 
+ID: aws glacier, Type: software, Desc: 
+ID: appsync, Type: software, Desc: 
+ID: codecommit, Type: software, Desc: 
+ID: codebuild, Type: software, Desc: 
+ID: codepipeline, Type: software, Desc: 
+ID: codedeploy, Type: software, Desc: 
+
+Matching Edges:
+Source: macie, Type: REJECTED_BY, Target: joe
+Source: guardduty, Type: REJECTED_BY, Target: joe
+
