@@ -1,0 +1,75 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"type": "object",
+	"properties": {
+		"softwareName": {
+			"type": "string"
+		},
+		"softwareDBpedia": {
+			"type": [
+				"string",
+				"null"
+			],
+			"format": "uri"
+		},
+		"businessSME": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"technicalSME": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"authors": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"type": {
+			"type": "string"
+		},
+		"relatedSpecsLinks": {
+			"type": "array",
+			"items": {
+				"type": "string",
+				"format": "uri"
+			}
+		},
+		"submissionDate": {
+			"type": "string",
+			"format": "date"
+		},
+		"preMortem": {
+			"type": "string"
+		},
+		"previousPublishedVersion": {
+			"type": "string",
+			"format": "uri"
+		},
+		"inputData": {
+			"type": "array",
+			"items": {
+				"type": "string",
+				"format": "uri"
+			}
+		}
+	},
+	"required": [
+		"softwareName",
+		"softwareDBpedia",
+		"businessSME",
+		"technicalSME",
+		"authors",
+		"type",
+		"relatedSpecsLinks",
+		"submissionDate",
+		"preMortem",
+		"previousPublishedVersion",
+		"inputData"
+	]
+}

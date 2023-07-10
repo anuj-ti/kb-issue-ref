@@ -1,0 +1,24 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"type": "object",
+	"properties": {
+		"document_category": {
+			"type": "string"
+		},
+		"document_category_id": {
+			"type": "integer"
+		},
+		"document_type": {
+			"type": "string"
+		},
+		"document_type_id": {
+			"type": "integer"
+		}
+	},
+	"required": [
+		"document_category",
+		"document_category_id",
+		"document_type",
+		"document_type_id"
+	]
+}

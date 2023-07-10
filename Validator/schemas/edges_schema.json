@@ -1,0 +1,33 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"type": "object",
+	"properties": {
+		"edges": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"source": {
+						"type": "string"
+					},
+					"type": {
+						"type": "string"
+					},
+					"target": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"source",
+					"type",
+					"target"
+				],
+				"additionalProperties": false
+			}
+		}
+	},
+	"required": [
+		"edges"
+	],
+	"additionalProperties": false
+}

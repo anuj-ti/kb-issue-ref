@@ -1,0 +1,5 @@
+{
+  "s3_bucket": "ediscovery-dataset",
+  "customer_name": "dev_customer",
+  "space_name": "esw_space"
+}
