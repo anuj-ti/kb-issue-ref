@@ -1,3 +1,5 @@
+For execution: https://us-east-1.console.aws.amazon.com/states/home?region=us-east-1#/v2/executions/details/arn:aws:states:us-east-1:346945241475:execution:StateMachine-wz85LVlZIOod:e9a415fe-e4cf-4eee-b7ca-b3d942e50753
+
 1.
 Jul 12, 2023, 13:15:36.230 (UTC+05:30)	[ERROR] AttributeError: 'list' object has no attribute 'items' Traceback (most recent call last):   File "/var/task/app.py", line 269, in lambda_handler     nodes = node_gen.generate_nodes_for_kg(chunk_kg, doc_extracted_data_json, initial_chunk_id, chunk_id)   File "/var/task/app.py", line 24, in generate_nodes_for_kg     for field, field_data in self.node_template.items():
 
