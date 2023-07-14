@@ -74,3 +74,4 @@ Passed payload example:
 	"tenant": "dev_customer_esw_space"
 }
 ```
+The keys are all same in both
