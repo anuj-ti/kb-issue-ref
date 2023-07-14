@@ -8,7 +8,9 @@ Received event:
 
 </br>
 Payload:
-```
+
+
+```json
 {
 	"index": "documents",
 	"documents": [
