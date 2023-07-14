@@ -34,3 +34,10 @@ Payload:
 	"tenant": "dev_customer_esw_space"
 }
 ```
+
+Jul 14, 2023, 14:52:14.946 (UTC+05:30)	[INFO] 2023-07-14T09:22:14.946Z 8d2598e8-3d52-4fae-a10a-d7a7a26f6214 Got response status: 400
+Jul 14, 2023, 14:52:14.946 (UTC+05:30)	[INFO] 2023-07-14T09:22:14.946Z 8d2598e8-3d52-4fae-a10a-d7a7a26f6214 Got response: {"error":"Request body invalid","message":"Expecting value: line 1 column 1 (char 0)"}
+Jul 14, 2023, 14:52:14.946 (UTC+05:30)	[ERROR] 2023-07-14T09:22:14.946Z 8d2598e8-3d52-4fae-a10a-d7a7a26f6214 Failed to upsert texts!
+Jul 14, 2023, 14:52:14.947 (UTC+05:30)	[ERROR] 2023-07-14T09:22:14.946Z 8d2598e8-3d52-4fae-a10a-d7a7a26f6214 Exception occurred: Failed to upsert texts! Response: {"error":"Request body invalid","message":"Expecting value: line 1 column 1 (char 0)"}
+Jul 14, 2023, 14:52:14.947 (UTC+05:30)	[ERROR] Exception: Failed to upsert texts! Response: {"error":"Request body invalid","message":"Expecting value: line 1 column 1 (char 0)"} Traceback (most recent call last):   File "/var/task/app.py", line 69, in lambda_handler     raise e   File "/var/task/app.py", line 65, in lambda_handler     raise Exception(f"Failed to upsert texts! Response: {response.text}")
+Jul 14, 2023, 14:52:14.948 (UTC+05:30)	END RequestId: 8d2598e8-3d52-4fae-a10a-d7a7a26f6214
