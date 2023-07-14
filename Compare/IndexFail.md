@@ -47,7 +47,7 @@ Failed to upsert texts! Response: {"error":"Request body invalid","message":"Exp
 </br>
 Exception: Failed to upsert texts! Response: {"error":"Request body invalid","message":"Expecting value: line 1 column 1 (char 0)"} Traceback (most recent call last):   File "/var/task/app.py", line 69, in lambda_handler     raise e   File "/var/task/app.py", line 65, in lambda_handler     raise Exception(f"Failed to upsert texts! Response: {response.text}")
 </br>
-
+</br></br></br>
 
 Passed payload example:
 ```json
