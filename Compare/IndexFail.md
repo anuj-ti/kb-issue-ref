@@ -47,3 +47,30 @@ Failed to upsert texts! Response: {"error":"Request body invalid","message":"Exp
 </br>
 Exception: Failed to upsert texts! Response: {"error":"Request body invalid","message":"Expecting value: line 1 column 1 (char 0)"} Traceback (most recent call last):   File "/var/task/app.py", line 69, in lambda_handler     raise e   File "/var/task/app.py", line 65, in lambda_handler     raise Exception(f"Failed to upsert texts! Response: {response.text}")
 </br>
+
+
+Passed payload example:
+```json
+{
+	"index": "documents",
+	"documents": [
+		{
+			"metadata": {
+				"originalModifiedTime": "2022-06-22T13:07:09.681Z",
+				"originalOwnersEmail": "spec.automation@devfactory.com",
+				"name": "Prod2 Technical Teardown Spec - Jive:Jive Cloud - Jive Web UI - CENPRO-27043 - Week 15 2022",
+				"originalCreatedTime": "2022-03-18T15:22:32.528Z",
+				"originalFileSource": "https://docs.google.com/document/d/1s0Cib3xZO3SB__4ft3xP5AKqCVBnpJcenWmQL5vyB5s",
+				"source": "https://docs.google.com/document/d/1s0Cib3xZO3SB__4ft3xP5AKqCVBnpJcenWmQL5vyB5s",
+				"mimeType": "application/vnd.google-apps.document",
+				"kgNodeId": null,
+				"parents": "llm-kb-dataset",
+				"originalOwnersName": "Spec Automation"
+			},
+			"id": "1ormdpfHESTYSNG1olB6DLGuHoCaYFs2QR89LhrhkSbQ_2",
+			"text": "* {blank}\n+\n____\nhttps://github.com/trilogy-group/jive-cloud-ms-mitui[[.underline]#https://github.com/trilogy-group/jive-cloud-ms-MiTUI#]\n____\n* {blank}\n+\n____\nhttps://github.com/trilogy-group/jive-cloud-application[[.underline]#https://github.com/trilogy-group/jive-cloud-application#]\n____\n* {blank}\n+\n____\nhttps://github.com/trilogy-group/jive-cloud-ms-mitui[[.underline]#https://github.com/trilogy-group/jive-cloud-ms-urgent-notifications#]\n____\n* {blank}\n+\n____\nhttps://docs.google.com/spreadsheets/d/1U2yRsDIWkYz0AH0TppAVXvtTIfOp8UWxjOcjSR9F8pU/edit#gid=0[[.underline]#https://docs.google.com/spreadsheets/d/1U2yRsDIWkYz0AH0TppAVXvtTIfOp8UWxjOcjSR9F8pU/edit#gid=0#]\n____\n* {blank}\n+\n____\nhttps://aurea.jiveon.com/docs/DOC-206346[[.underline]#https://aurea.jiveon.com/docs/DOC-206346#]\n____\n* {blank}\n+\n____\nhttps://aurea.jiveon.com/docs/DOC-10548[[.underline]#https://aurea.jiveon.com/docs/DOC-10548#]\n____\n* {blank}\n+\n____\nhttps://brewspace.jiveland.com/docs/DOC-340382[[.underline]#https://brewspace.jiveland.com/docs/DOC-340382#]\n____\n* {blank}\n+\n____\nhttps://github.com/trilogy-group/jive-jca-clearspace-cloud[[.underline]#https://github.com/trilogy-group/jive-jca-clearspace-cloud#]\n____\n* {blank}\n+\n____\nhttps://github.com/trilogy-group/jive-jcx-jcx-worker[[.underline]#https://github.com/trilogy-group/jive-jcx-jcx-worker#]\n____\n* {blank}\n+\n____\nhttps://github.com/trilogy-group/jive-jcx-jcx-api[[.underline]#https://github.com/trilogy-group/jive-jcx-jcx-api#]\n____\n* {blank}\n+\n____\nhttps://github.com/trilogy-group/jive-cloud-infrastructure[[.underline]#https://github.com/trilogy-group/jive-cloud-infrastructure#]\n____\n* {blank}\n+\n____\nhttps://github.com/trilogy-group/jive-video-config[[.underline]#https://github.com/trilogy-group/jive-video-config#]\n____\n* {blank}\n+\n____\nGoogle Drive links for area.jiveon.com and brewspace.jiveland.com docs:\n____\n** {blank}\n+\n____\nhttps://drive.google.com/file/d/1Iejg0k3nwJgSjSXEqt52cicJedCiQoKj/view?usp=sharing[[.underline]#A\nRoadmap to the Jive Source Code - UI elements.pdf#]\n____\n** {blank}\n+\n____\nhttps://drive.google.com/file/d/11eU91BmPH-Ih_nkQ9Au_z-o7KiAJRTkv/view?usp=sharing[[.underline]#The\nNovice's Guide to Soy Templates.pdf#]\n____\n** {blank}\n+\n____"
+		}
+	],
+	"tenant": "dev_customer_esw_space"
+}
+```
